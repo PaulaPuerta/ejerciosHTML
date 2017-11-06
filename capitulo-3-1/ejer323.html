@@ -7,15 +7,22 @@
 
 <style>
 
-    del{color: blue;font-size: 50px;line-height: 5}
+    p{width:1000px}
+    #grande{font-size: 40px}
+    del{color: blue;font-size: 2em; vertical-align: -1em}
+    ins{color: lightgreen;vertical-align: 0.5em}
+    .arriba{vertical-align: 0.5em;font-size: 0.5em}
+    .medio{vertical-align: 0.25em;font-size: 1.2em}
+    .abajo{vertical-align: -0.5em;font-size: 1.2em}
+
 
 </style>
 
 
 <body>
 
-    <p>Mi color favorito es el <del>azul</del> <ins>verde</ins>!</p>
-    <p>Hay que tener en cuenta que los navegadores tachan el texto marcado con <del>del</del> (del) y subrayan el marcado con <ins>ins.</ins></p>
+    <p id="grande">Mi color favorito es el <del>azul</del> <ins>verde</ins>!</p>
+    <p><span class="arriba">Hay que</span> tener en cuenta que <span class="medio">los navegadores</span> tachan <span class="abajo">el texto</span> marcado con <del>del</del> (del) y subrayan el marcado con <ins>ins.</ins></p>
 
 </body>
 </html>
