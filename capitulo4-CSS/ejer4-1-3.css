@@ -1,0 +1,17 @@
+body{background-color: #F4E3A9;font-family: arial,sans-serif;}
+
+h1{background-color: #570000;color:#f4e3a9;text-transform: capitalize;}
+
+h2{background-color: #C00201}
+
+a{color: #c00201}
+
+a:hover{
+    background-color: #8b0200;
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 2px;}
+
+em,strong{
+    font-size: 1.25em;
+    color: #f4a444;}

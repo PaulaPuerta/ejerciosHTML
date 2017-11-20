@@ -1,0 +1,11 @@
+h1{background-color: forestgreen; color:blanchedalmond}
+
+/*a:link{font-size: 1em; background-color: darkseagreen; color: beige}*/
+
+a:hover{font-size: 1.2em; background-color: lawngreen; color:aliceblue}
+
+a:active{background-color: forestgreen}
+
+/*a:visited{background-color:darkolivegreen; font-weight: bold}*/
+
+a:link,a:visited{font-weight: bold;color: #FFFFFF;background-color: #98bf21;text-align: center; text-transform: uppercase}
