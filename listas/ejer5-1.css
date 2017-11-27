@@ -1,0 +1,25 @@
+a{
+    text-decoration-line: none;
+}
+
+p{
+    background-color: lightgray;color: green;
+}
+
+span{
+    font-weight: bold;
+    color: red;
+}
+
+abbr{
+    color: dodgerblue;
+}
+
+dt{
+    font-weight: bold;
+    color: mediumblue;
+}
+
+body{
+    font-family: sans-serif;
+}
