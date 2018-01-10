@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Untitled Document</title>
+</head>
+<body>
+
+    <h1>Encuesta televisiva</h1>
+
+    <fieldset>
+        <legend>Datos personales</legend>
+
+        Edad:<input type="number" name="dni" size="20"/>
+
+        <label for="hab">Habitantes en la casa: </label>
+        <select id="hab" name="hab">
+            <option value="1" selected="1">1</option>
+            <option value="2" selected="2">2</option>
+            <option value="3" selected="3">3</option>
+            <option value="4" selected="4">4</option>
+            <option value="5" selected="5">5 o más</option>
+        </select>
+
+        <br/>Sexo
+        <input type="radio" name="sexo" value="mujer"/> Mujer
+        <input type="radio" name="sexo" value="hombre"/> Hombre
+
+        Televisores en casa:
+        <input type="radio" name="tele" value="0"/> 0
+        <input type="radio" name="tele" value="1"/> 1
+        <input type="radio" name="tele" value="2"/> 2
+        <input type="radio" name="tele" value="3"/> 3
+        <input type="radio" name="tele" value="4"/> 4 o más
+
+        <br/>Lugares en los que hay televisión en la casa:
+
+        <table>
+            <tr>
+                <td>
+                    <input type="checkbox" name="come" value="come"/>Comedor</td>
+                <td>
+                    <input type="checkbox" name="cocina" value="cocina"/>Cocina</td>
+                <td>
+                    <input type="checkbox" name="baño" value="baño"/>Cuarto de baño</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="padres" value="padres"/>Dormitorio padres</td>
+                <td>
+                    <input type="checkbox" name="hijos" value="hijos"/>Dormitorio hijos</td>
+                <td>
+                    <input type="checkbox" name="otros" value="otros"/>Otros</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="submit" value="Enviar"/>
+                    <input type="reset" value="Borrar" name="Reset"/>
+                </td>
+
+            </tr>
+
+
+
+        </table>
+
+
+
+
+
+
+
+
+    </fieldset>
+
+
+
+</body>
+</html>
