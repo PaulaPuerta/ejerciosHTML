@@ -3,9 +3,63 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Untitled Document</title>
+
+ <style>
+
+     h2{color: brown;}
+
+     body{background-color: bisque;}
+
+     form{
+         border: 2px solid brown;
+         width: 60%;
+         padding: 10px;
+     }
+
+     label{ display: block;}
+
+     input[type=text]{
+         width: 70%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         border: 1px solid brown;
+     }
+
+     .etiqueta,label{
+         font-size: 1.3em;
+         color: brown;
+     }
+
+     input[type=submit],input[type=reset]{
+         background-color: brown;
+         color: white;
+         margin: 4px 2px;
+         padding: 8px 16px;
+     }
+    </style>
 </head>
+
 <body>
 
+    <h2>Datos de cliente</h2>
+
+<form>
+    <label>Nombre:</label><br/>
+    <input type="text" name="nombre" value=""/>
+    <br/>
+    <label>DNI:</label><br/>
+    <input type="text" name="dni"/>
+    <br/>
+    <label>Tipo de Habitación:</label>
+    <input type="radio" name="hab" value="indiv"/> Individual<br/>
+    <input type="radio" name="hab" value="doble" checked="checked"/> Doble<br/>
+    <label>Opciones:</label>
+    <input type="checkbox" name="desayuno" value="desayuno"/>Desayuno en la habitación<br/>
+    <input type="checkbox" name="jacuzzi" value="jacuzzi"/>Jacuzzi<br/>
+    <input type="checkbox" name="wifi" value="wifi" checked="checked"/>Wi-Fi<br/>
+
+
+    </form>
 
 
 
